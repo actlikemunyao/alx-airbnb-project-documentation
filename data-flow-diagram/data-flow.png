@@ -1,0 +1,4 @@
+User → [Login/Register] → Users DB
+User → [Search Properties] → Properties DB
+User → [Create Booking] → Booking System → Bookings DB
+Booking System → [Initiate Payment] → Payment System → Payments DB
