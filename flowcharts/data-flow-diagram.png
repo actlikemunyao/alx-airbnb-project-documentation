@@ -1,0 +1,19 @@
+[Start]
+   ↓
+[User submits registration form]
+   ↓
+[Validate input data]
+   ↓
+┌───────────────┐
+│ Is data valid?│
+└──────┬────────┘
+       ↓ Yes              ↓ No
+[Hash password]      [Return validation error]
+       ↓
+[Store user data in database]
+       ↓
+[Send welcome email (optional)]
+       ↓
+[Return success response]
+       ↓
+[End]
